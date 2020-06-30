@@ -1,0 +1,4 @@
+org\gupao\starter\App.class
+org\gupao\starter\RedissonProperties.class
+org\gupao\starter\RedissonAutoConfiguration.class
+META-INF\spring-configuration-metadata.json

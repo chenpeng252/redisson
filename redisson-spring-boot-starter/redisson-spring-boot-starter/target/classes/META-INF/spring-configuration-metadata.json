@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "gupao.redisson",
+      "type": "org.gupao.starter.RedissonProperties",
+      "sourceType": "org.gupao.starter.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gupao.redisson.host",
+      "type": "java.lang.String",
+      "description": "redis服务器的地址",
+      "sourceType": "org.gupao.starter.RedissonProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "gupao.redisson.port",
+      "type": "java.lang.Integer",
+      "description": "redis服务器的端口",
+      "sourceType": "org.gupao.starter.RedissonProperties",
+      "defaultValue": 6379
+    },
+    {
+      "name": "gupao.redisson.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.gupao.starter.RedissonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "gupao.redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.gupao.starter.RedissonProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,13 @@
+{
+  "properties": [{
+    "name": "gupao.redisson.host",
+    "type": "java.lang.String",
+    "description": "redis服务器的地址",
+    "defaultValue": "localhost"
+  },{
+    "name": "gupao.redisson.port",
+    "type": "java.lang.Integer",
+    "description": "redis服务器的端口",
+    "defaultValue": 6379
+  }]
+}
